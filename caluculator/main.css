@@ -1,0 +1,18 @@
+#board{
+  background-color:black;
+  color:white;
+  text-align:right;
+  width:19.5%;
+}
+
+input[type="button"]{
+  width:5em;
+}
+
+input[value="AC"]{
+  width:10.4em;
+}
+
+input[value="="]{
+  width:10.4em;
+}

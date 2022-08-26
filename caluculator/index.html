@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="main.css">
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+   <h3>電卓</h3>
+     <div class = "result">
+       <input type ="text" id = board value = "0" >
+     </div> 
+     <div class = "first">
+       <input type="button"  value="7" onclick = number("7")>
+       <input type="button"  value="8" onclick = number("8")>
+       <input type="button"  value="9" onclick = number("9")>
+       <input type="button"  value="+" onclick = calCulator("+")>
+     </div>
+     <div class = "second">
+       <input type="button"  value="4" onclick = number("4")>
+       <input type="button"  value="5" onclick = number("5")>
+       <input type="button"  value="6" onclick = number("6")>
+       <input type="button"  value="-" onclick = calCulator("-")>
+     </div>
+     <div class = "third">
+       <input type="button"  value="1" onclick = number("1")>
+       <input type="button"  value="2" onclick = number("2")>
+       <input type="button"  value="3" onclick = number("3")>
+       <input type="button"  value="×" onclick = calCulator("*")>
+     </div>
+     <div class = "firth">
+       <input type="button"  value="0" onclick =  number("0")>
+       <input type="button"  value="00" onclick = number("00")>
+       <input type="button"  value="." onclick =  number(".")>
+       <input type="button"  value="÷" onclick = calCulator("/")>
+     </div>
+     <div class = "fifth">
+       <input type="button"  value="AC" onclick = clearNumber("AC")>
+       <input type="button"  value="=" onclick = equal("=")>
+     </div>
+     <script src="main.js"></script>
+   </form>
+ </body>
+ </html>

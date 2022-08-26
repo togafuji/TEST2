@@ -1,0 +1,17 @@
+.stopwatch{
+	display: flex;
+	padding-left: 40px;
+	font-size: 55px;
+}
+
+.push{
+	padding-left: 10px;
+}
+
+button{
+	width: 8em;
+  height: 4em;
+  margin: 3px;
+  border-radius: 5px;
+}
+
